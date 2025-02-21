@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    padding-top: 35px;
+}
+
+.form {
+    color: white;
+    font-family: cursive;
+
+}
+#Senha, #email {
+    background-color: rgb(67, 67, 67);
+    border-radius: 5px;
+}
+.botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(72, 199, 72);
+    border-radius: 10px;
+    width: 100px;
+    height: 35px;
+    margin-top: 10px;
+    color: white;
+    font-family: 'montserrat';
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'montserrat';
+    src: url('FONT/Montserrat.ttf') format('ttf');
+}
